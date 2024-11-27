@@ -24,3 +24,8 @@ Build for linux:
 ```
 docker-intro % docker build -t docker-intro:v3 --platform linux/amd64 .
 ```
+
+Run Docker Container:
+```
+docker run --name <container_name> -d -p <port_number> <image:tag>
+```
