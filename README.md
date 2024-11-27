@@ -15,17 +15,22 @@ Show logs of container:
 docker logs <container_id>
 ```
 
-Remove docker container
-```
-docker container rm <container_name>
-```
-
 Build for linux:
 ```
 docker-intro % docker build -t docker-intro:v3 --platform linux/amd64 .
 ```
 
-Run Docker Container:
+Create Docker Container:
 ```
 docker run --name <container_name> -d -p <port_number> <image:tag>
+```
+
+Stop Docker Container:
+```
+docker stop <container name or ID>
+```
+
+Start Docker Container:
+```
+docker start <container name or ID>
 ```
