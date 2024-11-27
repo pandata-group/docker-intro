@@ -2,8 +2,8 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req,res)=>{
-    res.send("Welcome to my cool app!");
-});
+     res.send("Welcome to my awesome app!<br/>Ain't this neat!"); 
+ });
 
 app.listen(3000, function () {
     console.log("app listening on port 3000");
