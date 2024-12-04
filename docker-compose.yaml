@@ -1,0 +1,14 @@
+services:
+  web-app:
+    image: pandatagroup/docker-intro:latest
+    container_name: web-app
+    ports:
+      - 3002:3000
+    restart: unless-stopped
+
+  postgres-db:
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: exampletest
+    restart: unless-stopped
