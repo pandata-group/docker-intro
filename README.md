@@ -22,7 +22,7 @@ docker logs <container_id>
 
 Build for linux:
 ```
-docker build -t docker-intro:v3 --platform linux/amd64 .
+docker build -t docker-intro:v1 .
 ```
 
 Create Docker Container:
