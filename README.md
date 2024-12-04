@@ -1,11 +1,16 @@
 # Helpful Docker Commands
 
-Install Docker (and compose):
+Install Docker on Linux (and compose):
 ```
 sudo wget -O- get.docker.com | bash
 ```
 
-List docker images:
+Show Docker containers (all)
+```
+docker ps (-a)
+```
+
+List Docker images:
 ```
 docker images
 ```
@@ -29,6 +34,10 @@ Stop Docker Container:
 ```
 docker stop <container name or ID>
 ```
+
+Remove Docker container:
+```
+docker rm <container_name>
 
 Start Docker Container:
 ```
