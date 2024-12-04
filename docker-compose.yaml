@@ -3,7 +3,7 @@ services:
     image: pandatagroup/docker-intro:prod
     container_name: web-app
     ports:
-      - 3002:3000
+      - 3003:3000
     restart: unless-stopped
 
   postgres-db:
