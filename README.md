@@ -38,6 +38,7 @@ docker stop <container name or ID>
 Remove Docker container:
 ```
 docker rm <container_name>
+```
 
 Start Docker Container:
 ```
