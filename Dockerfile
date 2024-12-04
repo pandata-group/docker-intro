@@ -1,4 +1,4 @@
-FROM node:19-alpine
+FROM node:23-alpine
 
 # Copy package.json
 # slash '/' at the end of app is important, so it created an app directory, otherwise you'll get an error
