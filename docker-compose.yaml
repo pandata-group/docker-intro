@@ -1,6 +1,6 @@
 services:
-  web-app:
-    image: pandatagroup/docker-intro:latest
+  node-app:
+    image: pandatagroup/docker-intro:prod
     container_name: web-app
     ports:
       - 3002:3000
