@@ -1,7 +1,7 @@
 services:
   node-app:
-    image: pandatagroup/docker-intro:prod
     container_name: node-app
+    image: pandatagroup/docker-intro:prod
     ports:
       - 3003:3000
     restart: unless-stopped

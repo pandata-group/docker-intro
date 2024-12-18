@@ -2,7 +2,7 @@ FROM node:23-alpine
 
 # Copy package.json
 # slash '/' at the end of app is important, so it created an app directory, otherwise you'll get an error
-COPY package.json /app/
+COPY package*.json /app/
 
 # Copy app files from src directory
 COPY src /app/
